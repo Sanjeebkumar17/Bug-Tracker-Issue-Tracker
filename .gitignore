@@ -1,0 +1,32 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Node dependencies and build
+node_modules/
+dist/
+
+# Python cache & databases
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+*.db
+backend/test_runner.db
+
+# Uploads
+uploads/*
+!backend/uploads/.gitkeep
+
+# Environment
+.env
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
